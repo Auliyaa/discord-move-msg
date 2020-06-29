@@ -60,8 +60,6 @@ class bot
 
     // locate source message
     msg.channel.messages.fetch(msg_id, true).then((src_msg) => {
-      console.log(src_msg);
-
       // fetch original message contents
       let content = src_msg.content;
       let opts = {};
