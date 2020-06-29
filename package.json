@@ -1,0 +1,17 @@
+{
+  "name": "discord-move-msg",
+  "version": "1.0.0",
+  "description": "An tiny bot that allows to move messages from 1 channel to another.",
+  "main": "src/index.js",
+  "scripts": {
+    "bot": "node src/index.js ./local.conf",
+    "debug": "node --inspect-brk=5858 src/index.js ./local.conf"
+  },
+  "author": "Ludwig Fiolka <ludwig.fiolka@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.1.0",
+    "configparser": "^0.3.6",
+    "discord.js": "^12.0.2"
+  }
+}
